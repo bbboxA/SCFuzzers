@@ -6,9 +6,9 @@ Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experie
 
 1 import the docker image
 ```
-docker import tomConfuzzDemo.tar kaifaconfuzz
+docker import xxxxxDemo.tar testimage
 ```
 2. run docker image
 ```
-docker run -idt -p 5180:80 kaifaconfuzz:latest /bin/bash
+docker run -idt -p 5180:80 testimage:latest /bin/bash
 ```
