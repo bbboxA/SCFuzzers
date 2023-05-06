@@ -23,6 +23,16 @@ docker run ......
 cd /ContractFuzzer
 sh run.sh --contracts_dir contract_folder
 ```
+The covered instructions can be found at file: /tracelog.log
+
+
+# ILF
+```
+cd /go/src/ilf
+sh ilfTestDepth.sh
+```
+The log file can be found at /go/src/ilf/log/
+
 
 
 # RLF
