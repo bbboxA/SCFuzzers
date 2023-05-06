@@ -13,9 +13,15 @@ docker import xxxxxDemo.tar testimage
 docker run -idt -p 5180:80 testimage:latest /bin/bash
 ```
 
+# ContractFuzzer
+```
+docker run ......
+cd /ContractFuzzer
+sh run.sh
+```
 
 
-# run RLF
+# RLF
 ```
 docker run ......
 cd /go/src/rlf/
