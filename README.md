@@ -8,16 +8,20 @@ Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experie
 ```
 docker import xxxxxDemo.tar testimage
 ```
-2. run docker image
+2. start docker image
 ```
 docker run -idt -p 5180:80 testimage:latest /bin/bash
+```
+3. run docker image
+```
+docker exec -it container_ID_obatined_in_step_2  /bin/bash
 ```
 
 # ContractFuzzer
 ```
 docker run ......
 cd /ContractFuzzer
-sh run.sh
+sh run.sh --contracts_dir contract_folder
 ```
 
 
