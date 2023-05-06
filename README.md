@@ -1,5 +1,5 @@
-# SmartcontractFuzzers
-Are existing fuzzers good enough for auditing smart contract? (Experience Paper)
+# Evaluting Smart Contract Fuzzers
+Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experience Paper)
 
 
 # How to load each Dockerfile:
