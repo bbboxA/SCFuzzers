@@ -12,3 +12,12 @@ docker import xxxxxDemo.tar testimage
 ```
 docker run -idt -p 5180:80 testimage:latest /bin/bash
 ```
+
+
+
+# run RLF
+```
+docker run ......
+cd /go/src/rlf/
+
+```
