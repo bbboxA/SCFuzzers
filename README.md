@@ -34,6 +34,16 @@ sh ilfTestDepth.sh
 The log file can be found at /go/src/ilf/log/
 
 
+# ConFuzzius
+```
+cd /root
+python3 test.py
+or python3 test_depth.py
+```
+the output result can be found at ./log/
+
+
+
 # RLF
 ```
 docker run ......
