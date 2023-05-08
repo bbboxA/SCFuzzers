@@ -90,3 +90,11 @@ bash mainshelldepth2.sh
 ```
 the output result can be found at ./test/
 
+# SmartGift
+```
+cd /SmartGift/code
+python3 SmartGift_main.py target_abi_path sample_path output_path
+cd /SmartGift/ContractFuzzer/
+bash run.sh --contracts_dir contract_folder output_path
+```
+https://github.com/chaoweilanmaohahaha/SmartGift
