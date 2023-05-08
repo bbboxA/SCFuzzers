@@ -97,10 +97,17 @@ bash run.sh --contracts_dir contract_folder output_path
 ```
 https://github.com/chaoweilanmaohahaha/SmartGift
 
-# E
+# EthPloit
 ```
+cd /contract-fuzzer/src
+bash maindepth2.sh
+```
+the output result can be found at ./output/
 
-```
+
+https://github.com/zqzqz/contract-fuzzer
+
+
 
 ------------------------------------
 ## SmartACE (not used in our experiment)
