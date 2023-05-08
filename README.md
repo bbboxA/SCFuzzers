@@ -31,7 +31,11 @@ zip b.zip b.z01 b.z02... -s=0 --out sum.zip
 
 After that, use the unzip command to unzip
 
-# ContractFuzzer
+
+Usage
+=====
+
+## ContractFuzzer
 ```
 docker run ......
 cd /ContractFuzzer
@@ -40,7 +44,7 @@ bash run.sh --contracts_dir contract_folder
 The covered instructions can be found at file: /tracelog.log
 
 
-# ILF
+## ILF
 ```
 cd /go/src/ilf
 bash ilfTestDepth.sh
@@ -48,7 +52,7 @@ bash ilfTestDepth.sh
 The log file can be found at /go/src/ilf/log/
 
 
-# ConFuzzius
+## ConFuzzius
 ```
 cd /root
 python3 test.py
@@ -58,7 +62,7 @@ the output result can be found at ./log/
 
 
 
-# sFuzz
+## sFuzz
 ```
 cd /workdir
 bash mainShell.sh
@@ -68,7 +72,7 @@ the output result can be found at ./output/
 
 
 
-# xFuzz
+## xFuzz
 ```
 cd /workdir
 bash main.sh
@@ -76,7 +80,7 @@ bash main.sh
 the output result can be found at ./output/
 
 
-# RLF
+## RLF
 ```
 docker run ......
 cd /go/src/rlf/
@@ -84,7 +88,7 @@ bash ilfTest.sh
 ```
 the output result can be found at ./log/
 
-# Smartian
+## Smartian
 ```
 cd /Smartian
 bash mainshelldepth2.sh
@@ -92,7 +96,7 @@ bash mainshelldepth2.sh
 the output result can be found at ./test/
 
 
-# SmartGift
+## SmartGift
 ```
 cd /SmartGift/code
 python3 SmartGift_main.py target_abi_path sample_path output_path
@@ -101,7 +105,7 @@ bash run.sh --contracts_dir contract_folder output_path
 ```
 https://github.com/chaoweilanmaohahaha/SmartGift
 
-# EthPloit
+## EthPloit
 ```
 cd /contract-fuzzer/src
 bash maindepth2.sh
@@ -114,7 +118,7 @@ https://github.com/zqzqz/contract-fuzzer
 
 
 ------------------------------------
-## SmartACE (not used in our experiment)
+### SmartACE (not used in our experiment)
 ```
 cd /smartace
 solc crowdsale.sol --bundle=Crowdsale --concrete --reps=5 --c-model \
@@ -129,6 +133,6 @@ https://github.com/contract-ace/smartace/blob/cmodel-dev/tutorials/2_getting_sta
 
 License
 =======
-Sourcerer is under the MIT license. See the [LICENSE](https://github.com/sourcerer-io/sourcerer-app/blob/develop/LICENSE.md) for more information.
+Sourcerer is under the MIT license. See the [LICENSE](https://github.com/bbboxA/SCFuzzers/blob/main/LICENSE.md) for more information.
 
 
