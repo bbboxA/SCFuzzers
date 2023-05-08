@@ -90,6 +90,7 @@ bash mainshelldepth2.sh
 ```
 the output result can be found at ./test/
 
+
 # SmartGift
 ```
 cd /SmartGift/code
@@ -98,3 +99,16 @@ cd /SmartGift/ContractFuzzer/
 bash run.sh --contracts_dir contract_folder output_path
 ```
 https://github.com/chaoweilanmaohahaha/SmartGift
+
+------------------------------------
+# SmartACE (not used in our experiment)
+```
+cd /smartace
+solc crowdsale.sol --bundle=Crowdsale --concrete --reps=5 --c-model \
+    --output-dir=fuzz
+
+cd fuzz ; mkdir build ; cd build
+CC=clang-10 CXX=clang++-10 cmake ..
+cmake --build . --target fuzz
+```
+https://github.com/contract-ace/smartace/blob/cmodel-dev/tutorials/2_getting_started.md
