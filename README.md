@@ -41,24 +41,31 @@ Usage
 =====
 
 ### ContractFuzzer
-##### How to run
+#### How to run
 ```
 docker run ......
 cd /ContractFuzzer
 bash run.sh --contracts_dir contract_folder
 ```
-The covered instructions can be found at file: /tracelog.log, 
-the output result can be found at contract_folder
+The covered instructions can be found at file: `/tracelog.log`, 
+the output result can be found at `contract_folder`.
 
-##### Source code
-![Click icon](https://your-image-url-here.png) Click here: [LINK](https://github.com/gongbell/ContractFuzzer).
+#### Source code
+[LINK](https://github.com/gongbell/ContractFuzzer).
+
+
 
 ### ILF
+#### How to run
 ```
 cd /go/src/ilf
 bash ilfTestDepth.sh
 ```
-The log file can be found at /go/src/ilf/log/
+The log file can be found at `/go/src/ilf/log/`
+
+#### Source code
+[LINK](https://github.com/eth-sri/ilf).
+
 
 
 ## ConFuzzius
