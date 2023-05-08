@@ -6,8 +6,9 @@ Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experie
 Due to the size limit of 2GB imposed by Git LFS, all the dockerfiles and benchmarks used in our experiment are available for access at:
 https://terabox.com/s/1NcZk3SUi6uEWjnZRo7Qw9A
 
-
-# How to load each Dockerfile:
+Get started
+===========
+### How to load each Dockerfile:
 
 1 import the docker image
 ```
@@ -22,6 +23,9 @@ docker run -idt -p 5180:80 testimage:latest /bin/bash
 docker exec -it container_ID_obatined_in_step_2  /bin/bash
 ```
 
+Please note that, due to the size of files, for some docker file, we upload a compressed one, please unzip it before you check. 
+
+### Subsection compression
 
 zip b.zip b.z01 b.z02... -s=0 --out sum.zip
 
@@ -121,3 +125,10 @@ CC=clang-10 CXX=clang++-10 cmake ..
 cmake --build . --target fuzz
 ```
 https://github.com/contract-ace/smartace/blob/cmodel-dev/tutorials/2_getting_started.md
+
+
+License
+=======
+Sourcerer is under the MIT license. See the [LICENSE](https://github.com/sourcerer-io/sourcerer-app/blob/develop/LICENSE.md) for more information.
+
+
