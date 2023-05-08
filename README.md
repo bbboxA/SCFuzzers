@@ -26,7 +26,7 @@ docker exec -it container_ID_obatined_in_step_2  /bin/bash
 ```
 docker run ......
 cd /ContractFuzzer
-sh run.sh --contracts_dir contract_folder
+bash run.sh --contracts_dir contract_folder
 ```
 The covered instructions can be found at file: /tracelog.log
 
@@ -34,7 +34,7 @@ The covered instructions can be found at file: /tracelog.log
 # ILF
 ```
 cd /go/src/ilf
-sh ilfTestDepth.sh
+bash ilfTestDepth.sh
 ```
 The log file can be found at /go/src/ilf/log/
 
@@ -52,7 +52,7 @@ the output result can be found at ./log/
 # sFuzz
 ```
 cd /workdir
-sh mainShell.sh
+bash mainShell.sh
 ```
 the output result can be found at ./output/
 
@@ -62,7 +62,7 @@ the output result can be found at ./output/
 # xFuzz
 ```
 cd /workdir
-sh main.sh
+bash main.sh
 ```
 the output result can be found at ./output/
 
@@ -74,5 +74,6 @@ the output result can be found at ./output/
 ```
 docker run ......
 cd /go/src/rlf/
-
+bash ilfTest.sh
 ```
+the output result can be found at ./log/
