@@ -7,8 +7,6 @@
 
 https://terabox.com/s/1NcZk3SUi6uEWjnZRo7Qw9A
 
-<span style="background-color: #8cff8c">This text has a green background.</span>
-
 
 Get started
 ===========
@@ -43,13 +41,17 @@ Usage
 =====
 
 ### ContractFuzzer
+##### How to run
 ```
 docker run ......
 cd /ContractFuzzer
 bash run.sh --contracts_dir contract_folder
 ```
-The covered instructions can be found at file: /tracelog.log
+The covered instructions can be found at file: /tracelog.log, 
+the output result can be found at contract_folder
 
+##### Source code
+![Click icon](https://your-image-url-here.png) Click here: [LINK](https://github.com/gongbell/ContractFuzzer).
 
 ### ILF
 ```
