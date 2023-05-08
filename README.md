@@ -49,6 +49,21 @@ the output result can be found at ./log/
 
 
 
+# sFuzz
+```
+cd /workdir
+sh mainShell.sh
+```
+the output result can be found at ./output/
+
+
+
+
+
+
+
+
+
 # RLF
 ```
 docker run ......
