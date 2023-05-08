@@ -101,7 +101,7 @@ bash run.sh --contracts_dir contract_folder output_path
 https://github.com/chaoweilanmaohahaha/SmartGift
 
 ------------------------------------
-# SmartACE (not used in our experiment)
+## SmartACE (not used in our experiment)
 ```
 cd /smartace
 solc crowdsale.sol --bundle=Crowdsale --concrete --reps=5 --c-model \
