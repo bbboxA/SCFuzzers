@@ -1,5 +1,5 @@
 # Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experience Paper)
-<p align="center"><img width="90%" src="./overview.png"></p>
+<p align="center"><img width="90%" src="./overview2.png"></p>
 
 
 # Artifacts
