@@ -1,10 +1,12 @@
 # Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experience Paper)
+
 <p align="center"><img width="90%" src="./overview2.png"></p>
 
-
 # Artifacts
-Due to the size limit of 2GB imposed by Git LFS, all the dockerfiles and benchmarks used in our experiment are available for access at:
+<table><tr><td bgcolor=orange> Due to the size limit of 2GB imposed by Git LFS and GitHub, all the dockerfiles and benchmarks used in our experiment are available for access at:</td></tr></table>
+
 https://terabox.com/s/1NcZk3SUi6uEWjnZRo7Qw9A
+
 
 Get started
 ===========
@@ -35,7 +37,7 @@ After that, use the unzip command to unzip
 Usage
 =====
 
-## ContractFuzzer
+### ContractFuzzer
 ```
 docker run ......
 cd /ContractFuzzer
@@ -44,7 +46,7 @@ bash run.sh --contracts_dir contract_folder
 The covered instructions can be found at file: /tracelog.log
 
 
-## ILF
+### ILF
 ```
 cd /go/src/ilf
 bash ilfTestDepth.sh
@@ -62,7 +64,7 @@ the output result can be found at ./log/
 
 
 
-## sFuzz
+### sFuzz
 ```
 cd /workdir
 bash mainShell.sh
@@ -72,7 +74,7 @@ the output result can be found at ./output/
 
 
 
-## xFuzz
+### xFuzz
 ```
 cd /workdir
 bash main.sh
@@ -80,7 +82,7 @@ bash main.sh
 the output result can be found at ./output/
 
 
-## RLF
+### RLF
 ```
 docker run ......
 cd /go/src/rlf/
@@ -88,7 +90,7 @@ bash ilfTest.sh
 ```
 the output result can be found at ./log/
 
-## Smartian
+### Smartian
 ```
 cd /Smartian
 bash mainshelldepth2.sh
@@ -105,7 +107,7 @@ bash run.sh --contracts_dir contract_folder output_path
 ```
 https://github.com/chaoweilanmaohahaha/SmartGift
 
-## EthPloit
+### EthPloit
 ```
 cd /contract-fuzzer/src
 bash maindepth2.sh
@@ -118,7 +120,7 @@ https://github.com/zqzqz/contract-fuzzer
 
 
 ------------------------------------
-### SmartACE (not used in our experiment)
+#### SmartACE (not used in our experiment)
 ```
 cd /smartace
 solc crowdsale.sol --bundle=Crowdsale --concrete --reps=5 --c-model \
