@@ -72,9 +72,6 @@ bash main.sh
 the output result can be found at ./output/
 
 
-
-
-
 # RLF
 ```
 docker run ......
@@ -99,6 +96,11 @@ cd /SmartGift/ContractFuzzer/
 bash run.sh --contracts_dir contract_folder output_path
 ```
 https://github.com/chaoweilanmaohahaha/SmartGift
+
+# E
+```
+
+```
 
 ------------------------------------
 ## SmartACE (not used in our experiment)
