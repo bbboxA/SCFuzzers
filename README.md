@@ -24,13 +24,16 @@ docker run -idt -p 5180:80 testimage:latest /bin/bash
 ```
 docker exec -it container_ID_obatined_in_step_2  /bin/bash
 ```
-
 Please note that, due to the size of files, for some docker file, we upload a compressed one, please unzip it before you check. 
 
-### Subsection compression
 
-zip b.zip b.z01 b.z02... -s=0 --out sum.zip
+### Segmented compression
 
+For particularly large files, we have used segmented compression, so please merge the segments before using them, like:
+
+```
+zip b.zip b.z01 b.z02... -s=0 --out testContractfuzzer.zip
+```
 After that, use the unzip command to unzip
 
 
