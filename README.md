@@ -53,7 +53,7 @@ the output result can be found at `contract_folder`.
 #### Source code
 [LINK](https://github.com/gongbell/ContractFuzzer).
 
-
+****
 
 ### ILF
 #### How to run
@@ -66,85 +66,122 @@ The log file can be found at `/go/src/ilf/log/`
 #### Source code
 [LINK](https://github.com/eth-sri/ilf).
 
+****
 
-
-## ConFuzzius
+### ConFuzzius
+#### How to run
 ```
 cd /root
 python3 test.py
 or python3 test_depth.py
 ```
-the output result can be found at ./log/
+the output result can be found at `./log/`.
 
+#### Source code
+[LINK](https://github.com/christoftorres/ConFuzzius).
 
+****
 
 ### sFuzz
+#### How to run
 ```
 cd /workdir
 bash mainShell.sh
 ```
-the output result can be found at ./output/
+the output result can be found at `./output/`
 
+#### Source code
 
+[LINK](https://github.com/duytai/sFuzz).
 
+****
 
 ### xFuzz
+#### How to run
 ```
 cd /workdir
 bash main.sh
 ```
-the output result can be found at ./output/
+the output result can be found at `./output/`
 
+#### Source code
+[LINK](https://github.com/zhang-alt/xFuzz).
+
+
+****
 
 ### RLF
+#### How to run
 ```
 docker run ......
 cd /go/src/rlf/
 bash ilfTest.sh
 ```
-the output result can be found at ./log/
+the output result can be found at `./log/`
+
+#### Source code
+[LINK]().
+
+****
 
 ### Smartian
+#### How to run
 ```
 cd /Smartian
 bash mainshelldepth2.sh
 ```
-the output result can be found at ./test/
+the output result can be found at `./test/`
 
+#### Source code
+[LINK](https://github.com/SoftSec-KAIST/Smartian).
+
+****
 
 ## SmartGift
+#### How to run
 ```
 cd /SmartGift/code
 python3 SmartGift_main.py target_abi_path sample_path output_path
 cd /SmartGift/ContractFuzzer/
 bash run.sh --contracts_dir contract_folder output_path
 ```
-https://github.com/chaoweilanmaohahaha/SmartGift
+The covered instructions can be found at file: `/tracelog.log`, 
+the output result can be found at `contract_folder`.
+
+#### Source code
+[LINK](https://github.com/chaoweilanmaohahaha/SmartGift).
+
+****
+
 
 ### EthPloit
+#### How to run
 ```
 cd /contract-fuzzer/src
 bash maindepth2.sh
 ```
-the output result can be found at ./output/
+the output result can be found at `./output/`
 
-
-https://github.com/zqzqz/contract-fuzzer
-
+#### Source code
+[LINK](https://github.com/zqzqz/contract-fuzzer).
 
 
 ------------------------------------
 #### SmartACE (not used in our experiment)
+#### How to run
+
 ```
 cd /smartace
-solc crowdsale.sol --bundle=Crowdsale --concrete --reps=5 --c-model \
+solc contract_file --bundle=contract_name --concrete --reps=5 --c-model \
     --output-dir=fuzz
 
 cd fuzz ; mkdir build ; cd build
 CC=clang-10 CXX=clang++-10 cmake ..
 cmake --build . --target fuzz
 ```
-https://github.com/contract-ace/smartace/blob/cmodel-dev/tutorials/2_getting_started.md
+
+#### Source code
+[LINK](https://github.com/contract-ace/smartace/blob/cmodel-dev/tutorials/2_getting_started.md).
 
 
 License
