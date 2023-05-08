@@ -82,3 +82,11 @@ cd /go/src/rlf/
 bash ilfTest.sh
 ```
 the output result can be found at ./log/
+
+# Smartian
+```
+cd /Smartian
+bash mainshelldepth2.sh
+```
+the output result can be found at ./test/
+
