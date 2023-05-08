@@ -22,6 +22,11 @@ docker run -idt -p 5180:80 testimage:latest /bin/bash
 docker exec -it container_ID_obatined_in_step_2  /bin/bash
 ```
 
+
+zip b.zip b.z01 b.z02... -s=0 --out sum.zip
+
+After that, use the unzip command to unzip
+
 # ContractFuzzer
 ```
 docker run ......
