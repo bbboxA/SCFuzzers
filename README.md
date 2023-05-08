@@ -1,4 +1,6 @@
 # Are We There Yet? Unraveling the State-of-the-ArtSmart Contract Fuzzers (Experience Paper)
+<p align="center"><img width="90%" src="./overview.png"></p>
+
 
 # Artifacts
 Due to the size limit of 2GB imposed by Git LFS, all the dockerfiles and benchmarks used in our experiment are available for access at:
