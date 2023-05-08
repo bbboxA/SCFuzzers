@@ -59,6 +59,12 @@ the output result can be found at ./output/
 
 
 
+# xFuzz
+```
+cd /workdir
+sh main.sh
+```
+the output result can be found at ./output/
 
 
 
