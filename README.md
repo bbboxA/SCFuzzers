@@ -32,10 +32,11 @@ Please note that, due to the size of files, for some docker file, we upload a co
 
 ### Segmented compression
 
-For particularly large files, we have used segmented compression, so please merge the segments before using them, like:
+For particularly large files, we have used segmented compression, so please merge the segments before using them.
+For example, to merget the `testContractfuzzer`
 
 ```
-zip b.zip b.z01 b.z02... -s=0 --out testContractfuzzer.zip
+zip contractfuzzer.zip .z01 -s=0 --out testContractfuzzer.zip
 ```
 After that, use the unzip command to unzip
 
