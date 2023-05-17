@@ -33,7 +33,7 @@ Please note that, due to the size of files, for some docker file, we upload a co
 ### Segmented compression
 
 For particularly large files, we have used segmented compression, so please merge the segments before using them.
-For example, to merget the `testContractfuzzer`
+For example, to merge the files under `testContractfuzzer` folder
 
 ```
 zip contractfuzzer.zip .z01 -s=0 --out testContractfuzzer.zip
